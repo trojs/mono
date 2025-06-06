@@ -3,9 +3,11 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "lint": "eslint  --config eslint.config.js",
+        "lint": "eslint --config eslint.config.js",
+        "lint:report": "eslint --config eslint.config.js -f json -o report.json",
         "lint:fix": "eslint --config eslint.config.js --fix",
-        "test": "npm test --workspaces"
+        "test": "npm test --workspaces",
+        "test:coverage": "node --test --experimental-test-coverage --test-reporter=spec --test-reporter=lcov --test-reporter-destination=stdout --test-reporter-destination=./coverage/lcov.info"
     },
     "keywords": [],
     "author": "",
