@@ -4,9 +4,6 @@
         "target": "ESNext",
         "module": "NodeNext",
         "moduleResolution": "nodenext",
-        "rootDirs": [
-            "src"
-        ],
         "resolveJsonModule": true
     },
     "exclude": [
