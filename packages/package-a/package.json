@@ -1,0 +1,13 @@
+{
+    "name": "package-a",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "dependencies": {
+        "@trojs/arrays": "^6.0.3"
+    },
+    "scripts": {
+        "build": "node index.js",
+        "test": "node --test"
+    }
+}

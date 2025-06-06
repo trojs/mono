@@ -1,0 +1,27 @@
+{
+    "name": "mono",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint --config eslint.config.js",
+        "lint:report": "eslint --config eslint.config.js -f json -o report.json",
+        "lint:fix": "eslint --config eslint.config.js --fix",
+        "test": "npm test --workspaces",
+        "test:coverage": "node --test --experimental-test-coverage --test-reporter=spec --test-reporter=lcov --test-reporter-destination=stdout --test-reporter-destination=./coverage/lcov.info"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "private": true,
+    "workspaces": [
+        "main",
+        "packages/*"
+    ],
+    "description": "",
+    "type": "module",
+    "devDependencies": {
+        "@eslint/js": "^9.28.0",
+        "@trojs/lint": "^0.2.21",
+        "globals": "^16.2.0"
+    }
+}

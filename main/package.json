@@ -1,0 +1,17 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js",
+    "test": "node --test"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "package-a": "^1.0.0",
+    "package-b": "^1.0.0"
+  },
+  "type": "module"
+}
