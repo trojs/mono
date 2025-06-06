@@ -3,9 +3,9 @@ import assert from 'node:assert'
 import { hi, multi, peopleByAge } from './index.js'
 await test('Package A', async (t) => {
   await t.test('Test Hi', async () => {
-    const exptected = 'Hi, Pieter!'
+    const expected = 'Hi, Pieter!'
     const result = hi('Pieter')
-    assert.strictEqual(result, exptected)
+    assert.strictEqual(result, expected)
   })
 
   await t.test('Test Multi', async () => {
