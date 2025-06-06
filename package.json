@@ -1,0 +1,25 @@
+{
+    "name": "mono",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint  --config eslint.config.js",
+        "lint:fix": "eslint --config eslint.config.js --fix",
+        "test": "npm test --workspaces"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "private": true,
+    "workspaces": [
+        "main",
+        "packages/*"
+    ],
+    "description": "",
+    "type": "module",
+    "devDependencies": {
+        "@eslint/js": "^9.28.0",
+        "@trojs/lint": "^0.2.21",
+        "globals": "^16.2.0"
+    }
+}
