@@ -3,7 +3,7 @@ import { add, hello } from 'package-b'
 
 const run = () => {
   console.log(hi('Pieter')) // "Hi, Pieter!"
-  console.log(multi(2, 3)) // 5
+  console.log(multi(2, 3)) // 6
 
   console.log(hello('Pieter')) // "Hello, Pieter!"
   console.log(add(2, 3)) // 5
