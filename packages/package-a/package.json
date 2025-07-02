@@ -4,7 +4,7 @@
     "main": "index.js",
     "type": "module",
     "dependencies": {
-        "@trojs/arrays": "^6.0.3"
+        "@trojs/arrays": "^7.0.0"
     },
     "scripts": {
         "build": "node index.js",
